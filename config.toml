@@ -167,7 +167,8 @@ contentDir = "content/french"
 weight = 1
 # copyright
 # copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
-copyright = "Tous droits réservés - {{ .Now.Year }} - Pedibus"
+# Year is set through layouts/partials/footer.html
+copyright = "Tous droits réservés - Pedibus"
 
 
 ######################### france navigation #############################
