@@ -4,7 +4,7 @@
 #theme="airspace"
 
 ################################# Default configuration ###################
-baseURL = "http://localhost:1313/"
+baseURL = "https://kind-banach-1a790d.netlify.app/"
 title = "Jakobsweg"
 theme = "airspace"
 #themesDir = "airspace"
