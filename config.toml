@@ -166,7 +166,8 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 1
 # copyright
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+# copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+copyright = "Tous droits réservés - {{ .Now.Year }} - Pedibus"
 
 
 ######################### france navigation #############################
