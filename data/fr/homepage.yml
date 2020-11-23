@@ -1,0 +1,113 @@
+############################### Banner ##############################
+banner:
+  enable : true
+  bg_image : "images/slider-bg.jpg"
+  bg_overlay : true
+  title : "Le Chemin de St Jacques de Compostelle <br /> de Genève au Puy en Velay"
+  content : "Jakobsweg"
+  button:
+    enable : true
+    label : "Decouvrez les itineraires"
+    link : "project"
+
+############################# About #################################
+about:
+  enable : true
+  title : "À propos"
+  description : "Spécialiste de la randonnée pédestre, Pedibus a réalisé ce site internet pour mettre en valeur le chemin de 
+              Saint Jacques de Compostelle de Genève au Puy en Velay. A côté des randonnées proposées par Pedibus, vous 
+              trouverez tous les renseignements pour organiser vous-mêmes cette marche à pied (hébergements, 
+              informations touristiques, documentation, ...)."
+  content : "Le Jakobsweg ou Via Gebennesis était l'itinéraire utilisé par les pèlerins suisses ou allemands pour se 
+              rendre de leur domicile à St Jacques de Compostelle. Au départ de la Suisse, ce parcours traverse la 
+              région Rhône-Alpes par la Haute-Savoie, la Savoie, l'Isère, la Loire pour se terminer en Haute-Loire. 
+              C'est de la cathédrale Notre Dame du Puy, que Godescalc, évêque du Puy partit en 950 pour Santiago de 
+              Compostela. C'est ici que débute la Via Podiensis, l'une des quatre grandes routes françaises de 
+              Saint Jacques de Compostelle."
+  image : "images/wrapper-img.jpg"
+
+
+######################### Portfolio ###############################
+portfolio:
+  enable : false
+  bg_image : "images/featue-bg.jpg"
+  title : "WE BELIEVE IN GREAT IDEAS"
+  content : "
+  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+
+  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+
+  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  "
+  button:
+    enable : true
+    label : "View Works"
+    link : "project"
+
+
+############################# Service ############################
+service:
+  enable : true
+  # service content comes from "data/*/service.yml" file
+
+
+############################ call to action ###########################
+cta:
+  enable : true
+  bg_image : "images/call-to-action-bg.jpg"
+  title : "Demander des informations"
+  content : ""
+  button:
+    enable : true
+    label : "Contactez-nous"
+    link : "contact"
+
+############################# Funfacts ###############################
+funfacts:
+  enable : true
+  title : "Infos insolite"
+  description : ""
+  funfact_item:
+    # funfacts item loop
+    - icon : "ion-map" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Itineraires"
+      count : "3"
+      
+    # funfacts item loop
+    - icon : "ion-home" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Hotels"
+      count : "45"
+      
+    # funfacts item loop
+    - icon : "ion-information-circled" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Office de tourisme"
+      count : "14"
+      
+    # funfacts item loop
+    - icon : "ion-speedometer" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Km à parcourir"
+      count : "124"
+
+  testimonial_slider:
+    # testimonial item loop
+    - name : "Raymond Roy"
+      image : "images/clients/avater-1.jpg"
+      designation : "CEO-Themefisher"
+      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."
+                
+    # testimonial item loop
+    - name : "Randi Renin"
+      image : "images/clients/avater-1.jpg"
+      designation : "CEO-Themefisher"
+      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."
+                
+    # testimonial item loop
+    - name : "Rose Rio"
+      image : "images/clients/avater-3.jpg"
+      designation : "CEO-Themefisher"
+      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."
